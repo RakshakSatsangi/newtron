@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form class=" " method="post" action="/hello">
+	    <div>Username: <input type="text" name="username" /></div>
+	    <div>Password: <input type="password" name="password" /></div>
+	    <div><input type="submit" value="Login" /></div>
+	</form>
+
+<script type="text/javascript">
+	function formHandler(form){ 
+		var formData = new formData(form);
+		var xhr = new XMLHttpRequest();
+		xhr.open('POST', form.action, true);
+		xhr.send(formData);
+		return false;
+
+	}
+	
+</script>
+	
+</body>
+</html>
