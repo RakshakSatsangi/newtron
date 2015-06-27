@@ -1,0 +1,27 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "good": "^6.1.4",
+    "good-console": "^5.0.1",
+    "grunt": "^0.4.5",
+    "handlebars": "^3.0.3",
+    "hapi": "^8.6.0",
+    "hapi-auth-jwt2": "^4.4.1",
+    "hapi-mysql": "0.0.41",
+    "hapi-plugin-mysql": "^2.1.0",
+    "joi": "^6.5.0",
+    "mysql": "^2.7.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-npm-install": "^0.2.0"
+  }
+}
